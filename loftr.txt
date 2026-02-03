@@ -1,0 +1,111 @@
+============================================================
+CHECKING GPU AVAILABILITY
+============================================================
+PyTorch version: 2.10.0+cu130
+CUDA available: True
+CUDA version: 13.0
+Number of GPUs: 1
+Current GPU: 0
+GPU Name: NVIDIA GeForce RTX 4090
+GPU Memory: 25.23 GB
+
+✓ Using GPU with FP16 acceleration
+============================================================
+
+Loading LoFTR model...
+Model converted to FP16 for faster inference
+Warming up GPU...
+GPU warmed up!
+LoFTR model loaded successfully!
+
+
+==================================================
+SEQUENCE 00
+==================================================
+Processed frame 0/4541 | 326.0ms (3.1 FPS)
+Processed frame 200/4541 | 334.3ms (3.0 FPS)
+Processed frame 400/4541 | 310.2ms (3.2 FPS)
+Processed frame 600/4541 | 344.6ms (2.9 FPS)
+Processed frame 800/4541 | 319.1ms (3.1 FPS)
+Processed frame 1000/4541 | 324.4ms (3.1 FPS)
+Processed frame 1200/4541 | 333.4ms (3.0 FPS)
+Processed frame 1400/4541 | 332.6ms (3.0 FPS)
+Processed frame 1600/4541 | 317.4ms (3.2 FPS)
+Processed frame 1800/4541 | 328.2ms (3.0 FPS)
+Processed frame 2000/4541 | 325.3ms (3.1 FPS)
+Processed frame 2200/4541 | 322.1ms (3.1 FPS)
+Processed frame 2400/4541 | 342.8ms (2.9 FPS)
+Processed frame 2600/4541 | 294.5ms (3.4 FPS)
+Processed frame 2800/4541 | 321.5ms (3.1 FPS)
+Processed frame 3000/4541 | 325.1ms (3.1 FPS)
+Processed frame 3200/4541 | 302.9ms (3.3 FPS)
+Processed frame 3400/4541 | 327.5ms (3.1 FPS)
+Processed frame 3600/4541 | 322.9ms (3.1 FPS)
+Processed frame 3800/4541 | 314.4ms (3.2 FPS)
+Processed frame 4000/4541 | 311.7ms (3.2 FPS)
+Processed frame 4200/4541 | 262.1ms (3.8 FPS)
+Processed frame 4400/4541 | 299.3ms (3.3 FPS)
+
+========== METRICS ==========
+Sequence          : 00
+ATE RMSE (m)      : 26.197
+RPE Trans (m)     : 0.032
+RPE Rot (deg)     : 0.263
+GT length (m)     : 3724.2
+Est length (m)    : 3808.1
+Avg FPS           : 3.13
+============================
+Saved trajectory_00_LoFTR.png
+
+==================================================
+SEQUENCE 05
+==================================================
+Processed frame 0/2761 | 315.4ms (3.2 FPS)
+Processed frame 200/2761 | 325.2ms (3.1 FPS)
+Processed frame 400/2761 | 323.6ms (3.1 FPS)
+Processed frame 600/2761 | 333.6ms (3.0 FPS)
+Processed frame 800/2761 | 308.9ms (3.2 FPS)
+Processed frame 1000/2761 | 322.2ms (3.1 FPS)
+Processed frame 1200/2761 | 318.1ms (3.1 FPS)
+Processed frame 1400/2761 | 304.4ms (3.3 FPS)
+Processed frame 1600/2761 | 315.5ms (3.2 FPS)
+Processed frame 1800/2761 | 304.7ms (3.3 FPS)
+Processed frame 2000/2761 | 325.1ms (3.1 FPS)
+Processed frame 2200/2761 | 339.7ms (2.9 FPS)
+Processed frame 2400/2761 | 368.0ms (2.7 FPS)
+Processed frame 2600/2761 | 312.9ms (3.2 FPS)
+
+========== METRICS ==========
+Sequence          : 05
+ATE RMSE (m)      : 34.537
+RPE Trans (m)     : 0.069
+RPE Rot (deg)     : 0.284
+GT length (m)     : 2205.6
+Est length (m)    : 1991.2
+Avg FPS           : 3.10
+============================
+Saved trajectory_05_LoFTR.png
+
+==================================================
+SEQUENCE 07
+==================================================
+Processed frame 0/1101 | 45.2ms (22.1 FPS)
+Processed frame 200/1101 | 323.6ms (3.1 FPS)
+Processed frame 400/1101 | 338.8ms (3.0 FPS)
+Processed frame 600/1101 | 326.5ms (3.1 FPS)
+Processed frame 800/1101 | 348.8ms (2.9 FPS)
+Processed frame 1000/1101 | 312.4ms (3.2 FPS)
+
+========== METRICS ==========
+Sequence          : 07
+ATE RMSE (m)      : 7.137
+RPE Trans (m)     : 0.075
+RPE Rot (deg)     : 0.286
+GT length (m)     : 694.7
+Est length (m)    : 677.6
+Avg FPS           : 3.02
+============================
+Saved trajectory_07_LoFTR.png
+
+All sequences completed successfully.
+
