@@ -1,0 +1,106 @@
+
+CPU SURF STEREO VISUAL ODOMETRY – MULTI SEQUENCE
+
+
+============================================================
+PROCESSING SEQUENCE 00
+============================================================
+Baseline: 0.5372 m
+Running CPU SURF Stereo VO on KITTI 00
+Total frames: 4541
+
+Processed frame 0/4541
+Processed frame 200/4541
+Processed frame 400/4541
+Processed frame 600/4541
+Processed frame 800/4541
+Processed frame 1000/4541
+Processed frame 1200/4541
+Processed frame 1400/4541
+Processed frame 1600/4541
+Processed frame 1800/4541
+Processed frame 2000/4541
+Processed frame 2200/4541
+Processed frame 2400/4541
+Processed frame 2600/4541
+Processed frame 2800/4541
+Processed frame 3000/4541
+Processed frame 3200/4541
+Processed frame 3400/4541
+Processed frame 3600/4541
+Processed frame 3800/4541
+Processed frame 4000/4541
+Processed frame 4200/4541
+Processed frame 4400/4541
+
+========== FINAL METRICS ==========
+Sequence          : 00
+ATE RMSE (m)      : 28.906
+RPE trans (m)     : 0.032
+RPE rot (deg)     : 0.114
+GT length (m)     : 3724.2
+Est length (m)    : 3815.2
+Avg runtime (ms)  : 55.33
+Avg FPS           : 18.07
+==================================
+Trajectory plot saved to traj_surf_stereo_00.png
+
+============================================================
+PROCESSING SEQUENCE 05
+============================================================
+Baseline: 0.5372 m
+Running CPU SURF Stereo VO on KITTI 05
+Total frames: 2761
+
+Processed frame 0/2761
+Processed frame 200/2761
+Processed frame 400/2761
+Processed frame 600/2761
+Processed frame 800/2761
+Processed frame 1000/2761
+Processed frame 1200/2761
+Processed frame 1400/2761
+Processed frame 1600/2761
+Processed frame 1800/2761
+Processed frame 2000/2761
+Processed frame 2200/2761
+Processed frame 2400/2761
+Processed frame 2600/2761
+
+========== FINAL METRICS ==========
+Sequence          : 05
+ATE RMSE (m)      : 10.342
+RPE trans (m)     : 0.019
+RPE rot (deg)     : 0.048
+GT length (m)     : 2205.6
+Est length (m)    : 2233.5
+Avg runtime (ms)  : 55.19
+Avg FPS           : 18.12
+==================================
+Trajectory plot saved to traj_surf_stereo_05.png
+
+============================================================
+PROCESSING SEQUENCE 07
+============================================================
+Baseline: 0.5372 m
+Running CPU SURF Stereo VO on KITTI 07
+Total frames: 1101
+
+Processed frame 0/1101
+Processed frame 200/1101
+Processed frame 400/1101
+Processed frame 600/1101
+Processed frame 800/1101
+Processed frame 1000/1101
+
+========== FINAL METRICS ==========
+Sequence          : 07
+ATE RMSE (m)      : 4.927
+RPE trans (m)     : 0.014
+RPE rot (deg)     : 0.040
+GT length (m)     : 694.7
+Est length (m)    : 715.8
+Avg runtime (ms)  : 56.23
+Avg FPS           : 17.78
+==================================
+Trajectory plot saved to traj_surf_stereo_07.png

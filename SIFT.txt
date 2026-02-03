@@ -1,0 +1,107 @@
+
+CPU SIFT STEREO VISUAL ODOMETRY – MULTI SEQUENCE
+
+
+============================================================
+PROCESSING SEQUENCE 00
+============================================================
+Baseline: 0.5372 m
+Running CPU SIFT Stereo VO on KITTI 00
+Total frames: 4541
+
+Processed frame 0/4541
+Processed frame 200/4541
+Processed frame 400/4541
+Processed frame 600/4541
+Processed frame 800/4541
+Processed frame 1000/4541
+Processed frame 1200/4541
+Processed frame 1400/4541
+Processed frame 1600/4541
+Processed frame 1800/4541
+Processed frame 2000/4541
+Processed frame 2200/4541
+Processed frame 2400/4541
+Processed frame 2600/4541
+Processed frame 2800/4541
+Processed frame 3000/4541
+Processed frame 3200/4541
+Processed frame 3400/4541
+Processed frame 3600/4541
+Processed frame 3800/4541
+Processed frame 4000/4541
+Processed frame 4200/4541
+Processed frame 4400/4541
+
+========== FINAL METRICS ==========
+Sequence          : 00
+ATE RMSE (m)      : 31.574
+RPE trans (m)     : 0.026
+RPE rot (deg)     : 0.112
+GT length (m)     : 3724.2
+Est length (m)    : 3809.5
+Avg runtime (ms)  : 65.79
+Avg FPS           : 15.20
+==================================
+Trajectory plot saved to traj_sift_stereo_00.png
+
+============================================================
+PROCESSING SEQUENCE 05
+============================================================
+Baseline: 0.5372 m
+Running CPU SIFT Stereo VO on KITTI 05
+Total frames: 2761
+
+Processed frame 0/2761
+Processed frame 200/2761
+Processed frame 400/2761
+Processed frame 600/2761
+Processed frame 800/2761
+Processed frame 1000/2761
+Processed frame 1200/2761
+Processed frame 1400/2761
+Processed frame 1600/2761
+Processed frame 1800/2761
+Processed frame 2000/2761
+Processed frame 2200/2761
+Processed frame 2400/2761
+Processed frame 2600/2761
+
+========== FINAL METRICS ==========
+Sequence          : 05
+ATE RMSE (m)      : 12.909
+RPE trans (m)     : 0.017
+RPE rot (deg)     : 0.047
+GT length (m)     : 2205.6
+Est length (m)    : 2242.6
+Avg runtime (ms)  : 67.45
+Avg FPS           : 14.83
+==================================
+Trajectory plot saved to traj_sift_stereo_05.png
+
+============================================================
+PROCESSING SEQUENCE 07
+============================================================
+Baseline: 0.5372 m
+Running CPU SIFT Stereo VO on KITTI 07
+Total frames: 1101
+
+Processed frame 0/1101
+Processed frame 200/1101
+Processed frame 400/1101
+Processed frame 600/1101
+Processed frame 800/1101
+Processed frame 1000/1101
+
+========== FINAL METRICS ==========
+Sequence          : 07
+ATE RMSE (m)      : 3.548
+RPE trans (m)     : 0.050
+RPE rot (deg)     : 0.119
+GT length (m)     : 694.7
+Est length (m)    : 705.8
+Avg runtime (ms)  : 63.54
+Avg FPS           : 15.74
+==================================
+Trajectory plot saved to traj_sift_stereo_07.png
+

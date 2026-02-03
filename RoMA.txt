@@ -1,0 +1,91 @@
+
+============================================================
+Running RoMA Stereo VO on KITTI sequence 00
+============================================================
+Processed frame 0/4541
+Processed frame 200/4541
+Processed frame 400/4541
+Processed frame 600/4541
+Processed frame 800/4541
+Processed frame 1000/4541
+Processed frame 1200/4541
+Processed frame 1400/4541
+Processed frame 1600/4541
+Processed frame 1800/4541
+Processed frame 2000/4541
+Processed frame 2200/4541
+Processed frame 2400/4541
+Processed frame 2600/4541
+Processed frame 2800/4541
+Processed frame 3000/4541
+Processed frame 3200/4541
+Processed frame 3400/4541
+Processed frame 3600/4541
+Processed frame 3800/4541
+Processed frame 4000/4541
+Processed frame 4200/4541
+Processed frame 4400/4541
+
+================ FINAL RESULTS ================
+Sequence            : 00
+ATE RMSE (m)        : 43.866
+RPE (m)             : 0.182
+Scale factor        : 1.0437
+Avg FPS             : 11.33
+Avg 3D points/frame : 680
+Avg inliers/frame   : 312
+==============================================
+Trajectory plot saved as: traj_00_fixed.png
+
+============================================================
+Running RoMA Stereo VO on KITTI sequence 05
+============================================================
+Processed frame 0/2761
+Processed frame 200/2761
+Processed frame 400/2761
+Processed frame 600/2761
+Processed frame 800/2761
+Processed frame 1000/2761
+Processed frame 1200/2761
+Processed frame 1400/2761
+Processed frame 1600/2761
+Processed frame 1800/2761
+Processed frame 2000/2761
+Processed frame 2200/2761
+Processed frame 2400/2761
+Processed frame 2600/2761
+
+================ FINAL RESULTS ================
+Sequence            : 05
+ATE RMSE (m)        : 19.180
+RPE (m)             : 0.106
+Scale factor        : 1.0105
+Avg FPS             : 10.58
+Avg 3D points/frame : 721
+Avg inliers/frame   : 337
+==============================================
+Trajectory plot saved as: traj_05_fixed.png
+
+============================================================
+Running RoMA Stereo VO on KITTI sequence 07
+============================================================
+Processed frame 0/1101
+Processed frame 200/1101
+Processed frame 400/1101
+Processed frame 600/1101
+Processed frame 800/1101
+Processed frame 1000/1101
+
+================ FINAL RESULTS ================
+Sequence            : 07
+ATE RMSE (m)        : 9.306
+RPE (m)             : 0.084
+Scale factor        : 0.9645
+Avg FPS             : 10.67
+Avg 3D points/frame : 768
+Avg inliers/frame   : 382
+==============================================
+Trajectory plot saved as: traj_07_fixed.png
+
+All sequences completed successfully!
+

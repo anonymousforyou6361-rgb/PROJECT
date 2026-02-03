@@ -1,0 +1,126 @@
+
+============================================================
+Running ORB Stereo VO on KITTI sequence 00
+============================================================
+Total frames: 4541
+Baseline: 0.5372 m
+
+Processed frame 0/4541
+Processed frame 200/4541
+Processed frame 400/4541
+Processed frame 600/4541
+Processed frame 800/4541
+Processed frame 1000/4541
+Processed frame 1200/4541
+Processed frame 1400/4541
+Processed frame 1600/4541
+Processed frame 1800/4541
+Processed frame 2000/4541
+Processed frame 2200/4541
+Processed frame 2400/4541
+Processed frame 2600/4541
+Processed frame 2800/4541
+Processed frame 3000/4541
+Processed frame 3200/4541
+Processed frame 3400/4541
+Processed frame 3600/4541
+Processed frame 3800/4541
+Processed frame 4000/4541
+Processed frame 4200/4541
+Processed frame 4400/4541
+Processed frame 4541/4541
+
+================ FINAL RESULTS ================
+Sequence            : 00
+Total frames        : 4541
+ATE RMSE (m)        : 56.074
+RPE (m)             : 0.231
+Scale factor        : 1.0643
+Avg runtime (ms)    : 34.16
+Avg FPS             : 29.27
+Avg 3D points/frame : 720
+Avg inliers/frame   : 268
+==============================================
+
+Trajectory plot saved as: traj_00_fixed.png
+Successfully completed
+
+============================================================
+Running ORB Stereo VO on KITTI sequence 05
+============================================================
+Total frames: 2761
+Baseline: 0.5372 m
+
+Processed frame 0/2761
+Processed frame 200/2761
+Processed frame 400/2761
+Processed frame 600/2761
+Processed frame 800/2761
+Processed frame 1000/2761
+Processed frame 1200/2761
+Processed frame 1400/2761
+Processed frame 1600/2761
+Processed frame 1800/2761
+Processed frame 2000/2761
+Processed frame 2200/2761
+Processed frame 2400/2761
+Processed frame 2600/2761
+Processed frame 2761/2761
+
+================ FINAL RESULTS ================
+Sequence            : 05
+Total frames        : 2761
+ATE RMSE (m)        : 19.427
+RPE (m)             : 0.106
+Scale factor        : 1.0009
+Avg runtime (ms)    : 33.40
+Avg FPS             : 29.94
+Avg 3D points/frame : 655
+Avg inliers/frame   : 242
+==============================================
+
+Trajectory plot saved as: traj_05_fixed.png
+Successfully completed
+
+============================================================
+Running ORB Stereo VO on KITTI sequence 07
+============================================================
+Total frames: 1101
+Baseline: 0.5372 m
+
+Processed frame 0/1101
+Processed frame 200/1101
+Processed frame 400/1101
+Processed frame 600/1101
+Processed frame 800/1101
+Processed frame 1000/1101
+Processed frame 1101/1101
+
+================ FINAL RESULTS ================
+Sequence            : 07
+Total frames        : 1101
+ATE RMSE (m)        : 9.615
+RPE (m)             : 0.093
+Scale factor        : 1.0548
+Avg runtime (ms)    : 34.08
+Avg FPS             : 29.35
+Avg 3D points/frame : 765
+Avg inliers/frame   : 313
+==============================================
+
+Trajectory plot saved as: traj_07_fixed.png
+Successfully completed
+
+==========================================================================================
+SUMMARY OF ALL SEQUENCES
+==========================================================================================
+Seq    Frames   ATE (m)    RPE (m)    Scale    Time (ms)    FPS      3D pts   Inliers 
+------------------------------------------------------------------------------------------
+00     4541     56.074     0.231      1.0643   34.16        29.27    720      268     
+05     2761     19.427     0.106      1.0009   33.40        29.94    655      242     
+07     1101     9.615      0.093      1.0548   34.08        29.35    765      313     
+==========================================================================================
+
+All sequences completed successfully!
+Trajectory plots saved for sequences: 00, 05, 07
+
